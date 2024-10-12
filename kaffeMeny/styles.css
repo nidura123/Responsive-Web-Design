@@ -1,0 +1,92 @@
+body {
+    background-image: url(/kaffeMeny/images/kaffe2.jpg);
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.menu {
+    background-color: burlywood;
+    width: 80%; /*Tar 80% av skjermen, og stopper ved max-width*/
+    margin-left: auto; /*Midtstiller menyen begge to*/
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px; /*Gjør at lengden stopper ppå 500px*/
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-family: italic;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Impact, sans-serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.item p { /*Gjelder alle p som er nested inni .item*/
+    display: inline-block; /*Gjør at de står på samme linje, og at de blir sett på som en block
+                            slik at de får hele linjeplassen for seg selv */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;                        
+}
+
+.coffee {
+    text-align: left;
+    width: 75%; /*Legger til maks 49% for avstand og
+                slik at .price har nok plass på samme linje.*/
+}
+
+.dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+a:visited {
+    color: black;
+}
+
